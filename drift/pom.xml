@@ -156,7 +156,7 @@
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>units</artifactId>
-                <version>1.4-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
@@ -166,9 +166,9 @@
             </dependency>
 
             <dependency>
-                <groupId>com.facebook.airlift</groupId>
+                <groupId>com.github.zacblanco</groupId>
                 <artifactId>bytecode</artifactId>
-                <version>1.4-SNAPSHOT</version>
+                <version>upgradeJava21Jitpack-SNAPSHOT</version>
             </dependency>
 
             <dependency>
