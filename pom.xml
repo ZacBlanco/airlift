@@ -81,6 +81,7 @@
         <module>stats</module>
         <module>testing</module>
         <module>trace-token</module>
+        <module>units</module>
 
         <!-- skeleton / sample code -->
         <module>skeleton-server</module>
@@ -98,6 +99,12 @@
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>concurrent</artifactId>
+                <version>${dep.airlift.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.facebook.airlift</groupId>
+                <artifactId>units</artifactId>
                 <version>${dep.airlift.version}</version>
             </dependency>
 
@@ -295,12 +302,6 @@
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>trace-token</artifactId>
                 <version>${dep.airlift.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.facebook.airlift</groupId>
-                <artifactId>units</artifactId>
-                <version>1.4-SNAPSHOT</version>
             </dependency>
 
             <dependency>
