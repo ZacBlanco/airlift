@@ -12,9 +12,9 @@
     <url>https://github.com/prestodb/airlift</url>
 
     <parent>
-        <groupId>com.facebook.airlift</groupId>
+        <groupId>com.github.zacblanco.airbase</groupId>
         <artifactId>airbase</artifactId>
-        <version>104-SNAPSHOT</version>
+        <version>upgradeJava21Jitpack-SNAPSHOT</version>
     </parent>
 
     <inceptionYear>2010</inceptionYear>
@@ -35,6 +35,13 @@
     <organization>
         <name>Airlift</name>
     </organization>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <licenses>
         <license>
