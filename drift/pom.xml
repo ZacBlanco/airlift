@@ -4,13 +4,13 @@
 
     <parent>
         <groupId>com.facebook.airlift</groupId>
-        <artifactId>airbase</artifactId>
-        <version>104-SNAPSHOT</version>
+        <artifactId>airlift</artifactId>
+        <version>0.216-SNAPSHOT</version>
     </parent>
 
     <groupId>com.facebook.drift</groupId>
     <artifactId>drift-root</artifactId>
-    <version>1.40-SNAPSHOT</version>
+    <version>0.216-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>drift-root</name>
@@ -52,7 +52,6 @@
         <air.check.skip-pmd>true</air.check.skip-pmd>
         <air.check.skip-jacoco>true</air.check.skip-jacoco>
 
-        <dep.airlift.version>0.216-SNAPSHOT</dep.airlift.version>
         <dep.takari-plugin.version>3.0.5</dep.takari-plugin.version>
         <dep.maven.version>3.9.9</dep.maven.version>
         <dep.nexus-staging-plugin.version>1.6.8</dep.nexus-staging-plugin.version>
@@ -127,31 +126,31 @@
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>bootstrap</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>configuration</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>concurrent</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>jmx</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>log</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
@@ -175,19 +174,19 @@
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>security</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>stats</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.facebook.airlift</groupId>
                 <artifactId>testing</artifactId>
-                <version>${dep.airlift.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>

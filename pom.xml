@@ -29,7 +29,6 @@
         <dep.packaging.version>${dep.airlift.version}</dep.packaging.version>
         <dep.jetty.version>9.4.55.v20240627</dep.jetty.version>
         <dep.jersey.version>2.26</dep.jersey.version>
-        <dep.drift.version>1.40-SNAPSHOT</dep.drift.version>
     </properties>
 
     <organization>
@@ -89,6 +88,7 @@
         <module>testing</module>
         <module>trace-token</module>
         <module>units</module>
+        <module>drift</module>
 
         <!-- skeleton / sample code -->
         <module>skeleton-server</module>
@@ -190,7 +190,7 @@
             <dependency>
                 <groupId>com.facebook.drift</groupId>
                 <artifactId>drift-protocol</artifactId>
-                <version>${dep.drift.version}</version>
+                <version>${dep.airlift.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.glassfish.hk2.external</groupId>
@@ -206,7 +206,7 @@
             <dependency>
                 <groupId>com.facebook.drift</groupId>
                 <artifactId>drift-codec</artifactId>
-                <version>${dep.drift.version}</version>
+                <version>${dep.airlift.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.glassfish.hk2.external</groupId>
@@ -222,7 +222,7 @@
             <dependency>
                 <groupId>com.facebook.drift</groupId>
                 <artifactId>drift-api</artifactId>
-                <version>${dep.drift.version}</version>
+                <version>${dep.airlift.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.glassfish.hk2.external</groupId>
@@ -238,7 +238,7 @@
             <dependency>
                 <groupId>com.facebook.drift</groupId>
                 <artifactId>drift-transport-netty</artifactId>
-                <version>${dep.drift.version}</version>
+                <version>${dep.airlift.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.glassfish.hk2.external</groupId>
